@@ -1,0 +1,15 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.header {
+  height: 15vmin;
+  background-color: rgb(34, 34, 34);
+}
+
+.login-form {
+  height: calc(100-15) vmin;
+  padding: 30px 20px 20px 20px;
+  display: grid;
+}
