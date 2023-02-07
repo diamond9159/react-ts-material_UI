@@ -3,13 +3,26 @@ p {
   font-family: Lato;
 }
 
-.header {
-  height: 15vmin;
-  background-color: rgb(34, 34, 34);
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(12, 12, 24);
+  padding: 0px;
 }
 
-.login-form {
+.header {
+  height: 15vmin;
+  background-color: rgb(105, 98, 136);
+}
+
+.container {
   height: calc(100-15) vmin;
   padding: 30px 20px 20px 20px;
   display: grid;
+  color: rgb(105, 98, 136);
+  .row {
+    -ms-grid-row-align: center;
+    grid-column: 1;
+    padding: 10px 20px 20px 10px;
+  }
 }

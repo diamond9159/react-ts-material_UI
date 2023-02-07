@@ -11,13 +11,13 @@ function Header() {
 
 function Login() {
   return (
-    <div className="login-form">
-      <div className="logo"></div>
-      <div className="div-username">
+    <div className="container">
+      <div className="row"></div>
+      <div className="row">
         <label htmlFor="username">UserName</label>
         <input type="text" name="username" value="" />
       </div>
-      <div className="div-password">
+      <div className="row">
         <label htmlFor="password">Password</label>
         <input type="password" name="password" />
       </div>
