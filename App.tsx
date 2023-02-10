@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './style.scss';
+import { ComponentCreator } from '@material-ui/core';
 
 function Header() {
   return (
@@ -15,11 +16,13 @@ function Login() {
       <div className="row"></div>
       <div className="row">
         <label htmlFor="username">UserName</label>
-        <input type="text" name="username" value="" />
       </div>
       <div className="row">
         <label htmlFor="password">Password</label>
         <input type="password" name="password" />
+      </div>
+      <div className="row">
+        <button className="primary">Sign Up</button>
       </div>
     </div>
   );
