@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './style.scss';
-import { ComponentCreator } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 
 function Header() {
   return (
